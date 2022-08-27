@@ -1,0 +1,16 @@
+.settings-list {
+  margin-top: 118px;
+}
+.settings-setting:first-child {
+  margin-top: 17px;
+}
+.settings-setting__column:last-child {
+  color: var(--font_color);
+}
+.settings-setting__column {
+  font-size: 22px;
+}
+.settings-setting__column i {
+  margin-right: 23px;
+  opacity: 70%;
+}

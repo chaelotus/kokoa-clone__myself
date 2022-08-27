@@ -1,0 +1,35 @@
+#friends-display-link {
+  display: block;
+  text-align: center;
+  background-color: #fbfbfb;
+  padding: 16px 0px;
+  font-size: 20px;
+  opacity: 90%;
+  margin: -15px 0px 10px 0px;
+}
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#splash-screen {
+  background-color: var(--yellow);
+  z-index: 3;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  animation: splashscreenAnimation 0.3s ease-in-out forwards;
+}
+@keyframes splashscreenAnimation {
+  form {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

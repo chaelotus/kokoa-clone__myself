@@ -1,0 +1,25 @@
+@import "reset.css";
+@import "variables.css";
+/*components*/
+@import "component/status-bar.css";
+@import "component/screen-header.css";
+@import "component/user-component.css";
+@import "component/nav-bar.css";
+@import "component/badge.css";
+@import "component/icon-row.css";
+@import "component/alt-screen.css";
+@import "component/no-mobile.css";
+/*screens*/
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/setting.css";
+@import "screens/chat.css";
+main:not(.main-chat) {
+  padding: 0px var(--horizontal-space);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}

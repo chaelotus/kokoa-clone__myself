@@ -1,0 +1,110 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - kokoa clone</title>
+    <script
+      src="https://kit.fontawesome.com/b6b675a5b4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <div class="screen-header__column">
+        <span class="screen-header__title">Friends</span>
+      </div>
+      <div class="screen-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        <i class="fa-solid fa-music fa-lg"></i>
+        <a href="setting.html"> <i class="fa-solid fa-gear fa-lg"></i></a>
+      </div>
+    </header>
+    <a id="friends-display-link">
+      <i class="fa-solid fa-circle-info fa-sm"></i>
+      Friends' Names Display
+      <i class="fa-solid fa-angle-right fa-xs"></i>
+    </a>
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class=".user-component__avartar user-component__avartar--xl"
+            src="screenshot/11.png"
+          />
+          <span class="user-component__title">Dasom</span>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <span>channel</span>
+        <i class="fa-solid fa-angle-up fa-xs"></i>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="screenshot/16.png"
+            class="user-component__avartar user-component__avartar--sm"
+          />
+          <span class="user-component__title-not-bolt">Channel</span>
+        </div>
+        <div class="user-component__column">
+          <div>
+            <span>2</span>
+            <i class="fa-solid fa-angle-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a href="friends.html">
+            <i class="fa-solid fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a href="chats.html">
+            <span class="badge nav__notification">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a href="more.html">
+            <div class="nav__notification_dot"></div>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="splash-screen">
+      <i class="fa-solid fa-comment"></i>
+    </div>
+    <div id="no-mobile">
+      <span>Your screen is super big🥲ㅠ</span>
+    </div>
+    <div id="landscape-mode">
+      <span>Please turn the cell phone screen vertically.</span>
+    </div>
+  </body>
+</html>
